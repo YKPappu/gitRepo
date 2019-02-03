@@ -1,3 +1,4 @@
+#dbbase connect
 
 import argparse
 import os
@@ -15,3 +16,4 @@ if  __name__ == "__main__":
     database_file = args.database
     input_file = args.input
     main(database=database_file, urlListFile=input_file)
+
